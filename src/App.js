@@ -1,13 +1,12 @@
 import React from 'react';
-import Die from './components/Die'
+import RollDice from './components/RollDice'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Die face="five"/>
-      <Die face="two"/>
+      <RollDice />
     </div>
   );
 }
